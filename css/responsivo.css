@@ -1,0 +1,247 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* HOME */
+    .encabezado {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .menu__boton___login {
+        margin-top: 10px;
+    }
+
+    .banner {
+        /*
+        display: flex;
+        align-items: center;
+        flex-direction: column;*/
+        display: inline-block;
+
+        height: 9%;
+        padding-bottom: 300px;
+        background-size: cover;
+    }
+
+    .productos__contenido {
+        flex-direction: column;
+    }
+
+    .productos__card {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .formulario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .contacto__formulario {
+        width: 100%;
+    }
+
+    .entrada__formulario {
+        width: 100%;
+    }
+
+    .boton__enviar___formulario {
+        width: 100%;
+    }
+
+    /* LOGIN */
+    .login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario__login {
+        width: 100%;
+    }
+
+    .login__entrada {
+        width: 100%;
+    }
+
+    .boton__entrar {
+        width: 100%;
+    }
+
+    /* PRODUCTOS */
+    .productos__boton___agregarProducto {
+        height: 100%;
+    }
+
+    .agregarProducto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario__agregarProducto {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .agregarProducto__entrada {
+        width: 100%;
+    }
+
+    .boton__agregarProducto {
+        width: 100%;
+    }
+
+    /* PRODUCTO */
+    .producto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .producto__imagen {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .producto__descripcion {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .producto__titulo {
+        text-align: center;
+    }
+
+    .producto p {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 790px){
+    .encabezado {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+
+    .menu__boton___login {
+        margin-top: 10px;
+    }
+
+    /* PRODUCTO */
+
+    .producto__descripcion{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+
+    .producto__titulo{
+        font-size: 70px;
+    }
+    .producto__imagen {
+        margin-bottom: 0px
+    }
+
+    /* FORMULARIO */
+
+    .formulario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .contacto__formulario {
+        width: 100%;
+    }
+
+    .entrada__formulario {
+        width: 100%;
+    }
+
+    .boton__enviar___formulario {
+        width: 100%;
+    }
+
+    /* LOGIN */
+    .login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario__login {
+        width: 100%;
+    }
+
+    .login__entrada {
+        width: 100%;
+    }
+
+    .boton__entrar {
+        width: 100%;
+    }
+
+    /* PRODUCTOS */
+    .productos__boton___agregarProducto {
+        height: 100%;
+    }
+
+    .agregarProducto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario__agregarProducto {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .agregarProducto__entrada {
+        width: 100%;
+    }
+
+    .boton__agregarProducto {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

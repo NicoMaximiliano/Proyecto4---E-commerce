@@ -1,0 +1,14 @@
+
+
+.productos__boton___agregarProducto{
+    border-radius: 8px;
+    padding: 8px;
+    background-color: blue;
+    color: #FFF;
+    border: none;
+    height: 40px;
+}
+
+.productos__boton___agregarProducto a{
+    color: #FFF;
+}

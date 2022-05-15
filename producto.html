@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alura Store | Descargue nuestros aplicactivos y juegos</title>
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/menu.css" rel="stylesheet">
+    <link href="./css/productos.css" rel="stylesheet">
+    <link href="./css/producto/producto.css" rel="stylesheet">
+    <link href="./css/formulario.css" rel="stylesheet">
+    <link href="./css/responsivo.css" rel="stylesheet">
+</head>
+<body class="app">
+    <header class="encabezado">
+        <a href="index.html">
+            <img src="imagenes/logo/Logo.png">
+        </a>
+
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">
+                        <input class="menu__busqueda" type="search" placeholder="¿Que deseas buscar?">
+                    </a>
+                    <a class="menu__link" href="login.html">
+                        <button class="menu__boton___login">
+                            Login
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido">
+
+        <section class="producto">
+            <img class="producto__imagen" src="imagenes/producto/star-wars.png">
+            <div class="producto__descripcion">
+                <h1 class="producto__titulo" >Titulo Producto</h1>
+                <h2 class="producto__precio">Precio</h2>
+                <p>
+                    Voluptas voluptatum quibusdam similique,
+                    class debitis alias maecenas eveniet ridiculus,
+                    facilis fusce! Ullam conubia? Sociis,
+                    minima malesuada habitasse distinctio sequi aliqua malesuada.
+                    Quisque deleniti proin expedita, aliquid litora.
+                    Iste recusandae? Commodo, quia ridiculus doloribus vero dictum?
+                    Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam
+                </p>
+            </div>
+        </section>
+
+        <section class="productos">
+            <h1>Productos Similares</h1>
+            <div class="productos__contenido">
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productos__card">
+                    <img class="productos__card___imagen" src="./imagenes/producto/star-wars.png">
+                    <div class="productos__card___base">
+                        <div class="productos__card___header">
+                            <h5 class="productos__card___titulo">Star Wars</h5>
+                            <p class="productos__card___data">Precio</p>
+                        </div>
+                        <div class="productos__card___descripcion">
+                            <a href="producto.html">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+
+            <form id="contacto__form" class="contacto__formulario" action="#">
+                <h2 class="titulo__principal">Hable con nosostros</h2>
+                <label class="contacto__formulario___label" for="nombre-apellido">Nombre</label>
+                <div class="contacto__formulario___div">
+                    <input type="text" id="nombre-apellido" class="entrada__formulario" required>
+                </div>
+
+                <label class="contacto__formulario___label" for="mensaje">Mensaje</label>
+                <div class="contacto__formulario-div">
+                    <textarea cols="70" rows="10" id="mensaje" class="entrada__formulario" required></textarea>
+                </div>
+
+                <input id="enviar-formulario" class="boton__enviar___formulario" type="submit" value="Enviar mensaje">
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="rodapie">
+        <p>
+            Todos los derechos reservados &copy; Alura Geek
+        </p>
+
+        <p>
+            Desarrollado por Nicolás M. Orellano
+        </p>
+    </footer>
+
+</body>
+</html>

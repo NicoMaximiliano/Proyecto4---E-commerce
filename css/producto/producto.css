@@ -1,0 +1,35 @@
+.producto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    padding: 150px 0;
+
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.producto__imagen{
+    width: 40%;
+}
+
+.producto__descripcion{
+    text-align: left;
+    width: 60%;
+    padding: 250px 10px;
+
+}
+
+.producto__titulo{
+    font-size: 100px;
+}
+
+.producto__precio{
+    font-size: 30px;
+}
+
+.producto p{
+    font-size: 30px;
+}
+

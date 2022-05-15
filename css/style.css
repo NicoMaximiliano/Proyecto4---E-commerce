@@ -1,0 +1,50 @@
+.app {
+    background: #E5E5E5;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "header"
+        "contenido"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto auto;
+}
+
+.encabezado {
+    align-items: center;
+    display:flex;
+    grid-area: header;
+    padding: 0 2rem;
+    background: #FFFFFF;
+
+    justify-content: space-between;
+
+
+    /*
+    BORDER-WIDTH: 5PX;
+    BORDER-STYLE: SOLID;
+    border-color: red;*/
+    
+}
+.contenido {
+    grid-area: contenido;
+    padding: 0 2rem;
+
+    /*
+    BORDER-WIDTH: 5PX;
+    BORDER-STYLE: SOLID;
+    border-color: green;*/
+}
+
+.rodapie {
+    background: grey;
+    color: #FFF;
+    grid-area: footer;
+    padding: 3rem;
+    text-align: center;
+
+    /*
+    BORDER-WIDTH: 5PX;
+    BORDER-STYLE: SOLID;
+    border-color: red;*/
+}
